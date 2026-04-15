@@ -27,8 +27,8 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
+      "enabled": true,
+      "repeat": true,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -36,14 +36,14 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": false,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000,
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 200000,
+    "max-reconnect-delay": 12000000,
     "periodic-rejoin": {
       "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 22000,
+      "max-interval": 60000
     }
   },
   "movement": {
